@@ -15,7 +15,7 @@ struct CarListDetailView: View {
     
     var body: some View {
         
-//        NavigationLink(destination: CarDetailView(car: car)) {
+        NavigationLink(destination: CarDetailView(car: car)) {
             VStack {
                 // MARK: IMAGE
                 PictureView(pictureUrl: car.picture_url!,
@@ -57,7 +57,7 @@ struct CarListDetailView: View {
             }
             .padding(.top)
             .padding(.bottom)
-//        }
+        }
     }
 }
 
