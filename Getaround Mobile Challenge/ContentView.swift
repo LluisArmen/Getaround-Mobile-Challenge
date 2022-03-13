@@ -8,14 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var carsViewModel: CarsViewModel
+    
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        CarsListView()
+            .preferredColorScheme(.light)
+
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.light)
     }
 }

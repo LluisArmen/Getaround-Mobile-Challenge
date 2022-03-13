@@ -13,7 +13,15 @@
 		315C753F27DB94B300EB045C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315C753E27DB94B300EB045C /* Preview Assets.xcassets */; };
 		315C754927DB94B300EB045C /* Getaround_Mobile_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315C754827DB94B300EB045C /* Getaround_Mobile_ChallengeTests.swift */; };
 		315C755327DB94B400EB045C /* Getaround_Mobile_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315C755227DB94B400EB045C /* Getaround_Mobile_ChallengeUITests.swift */; };
-		315C755527DB94B400EB045C /* Getaround_Mobile_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315C755427DB94B400EB045C /* Getaround_Mobile_ChallengeUITestsLaunchTests.swift */; };
+		315C756527DB9D6F00EB045C /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315C756427DB9D6F00EB045C /* Car.swift */; };
+		315C756727DB9F1000EB045C /* CarsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315C756627DB9F1000EB045C /* CarsListView.swift */; };
+		315C756927DB9F3100EB045C /* CarsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315C756827DB9F3100EB045C /* CarsViewModel.swift */; };
+		315C756B27DBA86400EB045C /* CarListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315C756A27DBA86400EB045C /* CarListDetailView.swift */; };
+		315C756D27DBBD2300EB045C /* CarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315C756C27DBBD2300EB045C /* CarDetailView.swift */; };
+		315C756F27DBC1E600EB045C /* RatingStarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315C756E27DBC1E600EB045C /* RatingStarsView.swift */; };
+		315C757127DBC21000EB045C /* PictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315C757027DBC21000EB045C /* PictureView.swift */; };
+		31DE499C27DE43F400170244 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 31DE499B27DE43F400170244 /* README.md */; };
+		31DE499E27DE441100170244 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 31DE499D27DE441100170244 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +51,15 @@
 		315C754827DB94B300EB045C /* Getaround_Mobile_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Getaround_Mobile_ChallengeTests.swift; sourceTree = "<group>"; };
 		315C754E27DB94B400EB045C /* Getaround Mobile ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Getaround Mobile ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		315C755227DB94B400EB045C /* Getaround_Mobile_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Getaround_Mobile_ChallengeUITests.swift; sourceTree = "<group>"; };
-		315C755427DB94B400EB045C /* Getaround_Mobile_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Getaround_Mobile_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		315C756427DB9D6F00EB045C /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		315C756627DB9F1000EB045C /* CarsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsListView.swift; sourceTree = "<group>"; };
+		315C756827DB9F3100EB045C /* CarsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsViewModel.swift; sourceTree = "<group>"; };
+		315C756A27DBA86400EB045C /* CarListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListDetailView.swift; sourceTree = "<group>"; };
+		315C756C27DBBD2300EB045C /* CarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailView.swift; sourceTree = "<group>"; };
+		315C756E27DBC1E600EB045C /* RatingStarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingStarsView.swift; sourceTree = "<group>"; };
+		315C757027DBC21000EB045C /* PictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureView.swift; sourceTree = "<group>"; };
+		31DE499B27DE43F400170244 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		31DE499D27DE441100170244 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +87,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3141D7FB27DCAE9D00A906C0 /* sub-view */ = {
+			isa = PBXGroup;
+			children = (
+				315C756A27DBA86400EB045C /* CarListDetailView.swift */,
+				315C756E27DBC1E600EB045C /* RatingStarsView.swift */,
+				315C757027DBC21000EB045C /* PictureView.swift */,
+			);
+			path = "sub-view";
+			sourceTree = "<group>";
+		};
 		315C752B27DB94B000EB045C = {
 			isa = PBXGroup;
 			children = (
+				31DE499D27DE441100170244 /* README.md */,
 				315C753627DB94B100EB045C /* Getaround Mobile Challenge */,
 				315C754727DB94B300EB045C /* Getaround Mobile ChallengeTests */,
 				315C755127DB94B400EB045C /* Getaround Mobile ChallengeUITests */,
@@ -94,6 +121,9 @@
 		315C753627DB94B100EB045C /* Getaround Mobile Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				315C756327DB952200EB045C /* ViewModels */,
+				315C756227DB951D00EB045C /* Views */,
+				315C756127DB951400EB045C /* Models */,
 				315C753727DB94B100EB045C /* Getaround_Mobile_ChallengeApp.swift */,
 				315C753927DB94B100EB045C /* ContentView.swift */,
 				315C753B27DB94B300EB045C /* Assets.xcassets */,
@@ -121,10 +151,36 @@
 		315C755127DB94B400EB045C /* Getaround Mobile ChallengeUITests */ = {
 			isa = PBXGroup;
 			children = (
+				31DE499B27DE43F400170244 /* README.md */,
 				315C755227DB94B400EB045C /* Getaround_Mobile_ChallengeUITests.swift */,
-				315C755427DB94B400EB045C /* Getaround_Mobile_ChallengeUITestsLaunchTests.swift */,
 			);
 			path = "Getaround Mobile ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		315C756127DB951400EB045C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				315C756427DB9D6F00EB045C /* Car.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		315C756227DB951D00EB045C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3141D7FB27DCAE9D00A906C0 /* sub-view */,
+				315C756627DB9F1000EB045C /* CarsListView.swift */,
+				315C756C27DBBD2300EB045C /* CarDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		315C756327DB952200EB045C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				315C756827DB9F3100EB045C /* CarsViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +287,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31DE499C27DE43F400170244 /* README.md in Resources */,
 				315C753F27DB94B300EB045C /* Preview Assets.xcassets in Resources */,
+				31DE499E27DE441100170244 /* README.md in Resources */,
 				315C753C27DB94B300EB045C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				315C756927DB9F3100EB045C /* CarsViewModel.swift in Sources */,
 				315C753A27DB94B100EB045C /* ContentView.swift in Sources */,
+				315C757127DBC21000EB045C /* PictureView.swift in Sources */,
+				315C756D27DBBD2300EB045C /* CarDetailView.swift in Sources */,
+				315C756B27DBA86400EB045C /* CarListDetailView.swift in Sources */,
+				315C756727DB9F1000EB045C /* CarsListView.swift in Sources */,
+				315C756F27DBC1E600EB045C /* RatingStarsView.swift in Sources */,
+				315C756527DB9D6F00EB045C /* Car.swift in Sources */,
 				315C753827DB94B100EB045C /* Getaround_Mobile_ChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +339,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				315C755527DB94B400EB045C /* Getaround_Mobile_ChallengeUITestsLaunchTests.swift in Sources */,
 				315C755327DB94B400EB045C /* Getaround_Mobile_ChallengeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
